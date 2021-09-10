@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div class="alert alert-secondary" role="alert">
+        Timer
+      </div>
+    <div id="time"class="d-flex justify-content-center fs-1">
+        <span id="min">3</span>分
+        <span id="sec">0</span>秒
+    </div>
+    <div class="d-flex justify-content-center mt-2">
+        <button id="start" type="button" class="btn btn-primary ms-2">START</button>
+        <button id="stop" type="button" class="btn btn-primary ms-2" disabled>STOP</button>
+        <button id="reset" type="button" class="btn btn-primary ms-2">RESET</button>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
