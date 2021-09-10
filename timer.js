@@ -6,6 +6,7 @@ let reset = document.getElementById("reset");
 let time = 180;
 let timer ;
 
+
 start.addEventListener('click', () => {
     toggle();
     timer = setInterval( count, 1000);
